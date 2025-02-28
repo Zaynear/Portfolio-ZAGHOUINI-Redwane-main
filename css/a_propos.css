@@ -94,7 +94,7 @@ html {
 }
 
 .description:nth-child(n) {
-    transform: rotate(-5deg);
+    transform: rotate(-0deg);
 }
 
 .cards:hover>.card:hover {
