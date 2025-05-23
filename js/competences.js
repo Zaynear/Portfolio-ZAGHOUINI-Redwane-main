@@ -105,7 +105,7 @@ let competences = [
         nom: "Maria DB",
         image: "../img/competences/mariadb.png",
         lien: "",
-        designation: "Systéme de gestion de base de donnée relationnel open-source",
+        designation: "Système de gestion de base de donnée relationnel open-source",
         projet: false
     },
     {
