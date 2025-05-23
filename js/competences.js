@@ -74,6 +74,20 @@ let competences = [
         projet: false
     },
     {
+        nom: "Tmate.io", 
+        image: "../img/competences/tmate.png",
+        lien: "",
+        designation: "Outil de partage instantannée de terminal (SSH) à distance",
+        projet: false
+    },
+    {
+        nom: "wsl (Windows subsystem linux)", 
+        image: "../img/competences/wsl.png",
+        lien: "",
+        designation: "Fonctionnalité de compatibilité linux sous windows",
+        projet: false
+    },   
+    {
         nom: "Ubuntu", 
         image: "../img/competences/ubuntu.png",
         lien: "",
@@ -85,6 +99,13 @@ let competences = [
         image: "../img/competences/sql.jpg",
         lien: "",
         designation: "Langage de programmation",
+        projet: false
+    },
+    {
+        nom: "Maria DB",
+        image: "../img/competences/mariadb.png",
+        lien: "",
+        designation: "Systéme de gestion de base de donnée relationnel open-source",
         projet: false
     },
     {
@@ -172,6 +193,20 @@ let competences = [
         projet: false
     },
     {
+        nom: "Azure",
+        image: "../img/competences/azure.webp",
+        lien: "",
+        designation: "Plateforme cloud (Service de calcul/IA/BDD/Stockage)",
+        projet: false
+    },
+    {
+        nom: "Power Bi",
+        image: "../img/competences/powerbi.webp",
+        lien: "",
+        designation: "Outil de visualisation et d'analyse de donnée",
+        projet: false
+    },
+    {
         nom: "OVH Cloud",
         image: "../img/competences/ovh.webp",
         lien: "",
@@ -198,6 +233,13 @@ let competences = [
         lien: "",
         designation: "Langage de programmation / logiciel de calcul numérique",
         projet: false
+    },
+    {
+        nom: "Électronique",
+        image: "../img/competences/puce.png",
+        lien: "./pages-competences/electronique.html",
+        designation: "Composant électronique et logiciel affilié",
+        projet: true
     },
     {
         nom: "VHDL", 
@@ -242,6 +284,34 @@ let competences = [
         projet: false
     },
     {
+        nom: "Snipe-IT",
+        image: "../img/competences/snipeit.png",
+        lien: "",
+        designation: "Logiciel opensource de gestion de parc informatique (ASSET Management System) ",
+        projet: false
+    },
+    {
+        nom: "Slack",
+        image: "../img/competences/slack.webp",
+        lien: "",
+        designation: "Plateforme de communication collaboratif",
+        projet: false
+    },
+    {
+        nom: "Freenode IRC",
+        image: "../img/competences/freenode.png",
+        lien: "",
+        designation: "Réseau de chat IRC (communauté informatique)",
+        projet: false
+    },
+    {
+        nom: "Obsidian",
+        image: "../img/competences/obsidian.png",
+        lien: "",
+        designation: "Application de prise de note",
+        projet: false
+    },
+    {
         nom: "Draw.io", 
         image: "../img/competences/drawio.webp",
         lien: "",
@@ -260,6 +330,20 @@ let competences = [
         image: "../img/competences/obs.png",
         lien: "",
         designation: "Logiciel de streaming et d'enregistrement video open source",
+        projet: false
+    },
+    {
+        nom: "Teamviewer", 
+        image: "../img/competences/teamviewer.png",
+        lien: "",
+        designation: "Logiciel d'accès et contrôle à distance (PC et terminaux) ",
+        projet: false
+    },
+    {
+        nom: "Real VNC", 
+        image: "../img/competences/realvnc.png",
+        lien: "",
+        designation: "Logiciel d'accès et contrôle à distance (Remote use VNC protocol) ",
         projet: false
     },
     {
@@ -302,6 +386,13 @@ let competences = [
         image: "../img/competences/cisco.webp",
         lien: "",
         designation: "Logiciel de simulation réseau",
+        projet: false
+    },
+    {
+        nom: "Fortinet (Fortigate)", 
+        image: "../img/competences/fortinet.webp",
+        lien: "",
+        designation: "Pare-feu",
         projet: false
     },
     {
