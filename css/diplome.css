@@ -12,6 +12,14 @@ body{
     padding: 2rem;
 }
 
+.card-img-top{
+  width: 100%; /* L'image remplit la largeur du cadre */
+  height: 100%; /* L'image remplit la hauteur du cadre */
+  object-fit: cover; /* LE PLUS IMPORTANT : Gère le redimensionnement */
+  object-position: center; /* Centre l'image dans le cadre */
+  display: block; /* Supprime l'espace sous l'image */
+}
+
 .diplomes-trier{
     width: 100%;
     margin-bottom: 2rem;
