@@ -127,7 +127,7 @@ for (let i = 0; i < diplomes.length; i++) {
                     ${diplome.description}
                     ${diplome.lien ? `
                         <div>
-                            <a href="${diplome.lien}" target="_blank"> Voir l'attestation </a>
+                            <a href="${diplome.lien}" target="_blank">Voir l'attestation</a>
                         </div>
                     ` :''}
                 </div>
