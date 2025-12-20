@@ -63,6 +63,16 @@ let diplomes = [
         image:"../img/google_analytics.png"
     },
     {
+        id: "diplome_8",
+        titre: "Certification ISO/IEC 27005 (Risk Manager)",
+        date: "2026",
+        lieu: "Indépendant",
+        etat: "obtenu",
+        description: "Aspect gestion des risques (ISO 27005) - En complément de l'ISO 27001, j'ai obtenu la certification ISO 27005 pour me spécialiser dans la gestion des risques de sécurité de l'information. Cette démarche vise à acquérir une méthodologie structurée (ex: EBIOS, MEHARI) pour identifier, évaluer, traiter et surveiller les risques, ce qui est au cœur de toute stratégie de cybersécurité efficace.",
+        lien : "https://lms.skills4all.com/mod/linkedincert/verify_certificate.php?code=VxGRgFkwHF",
+        image:"../img/ISO27005.png"
+    },
+    {
         id: "diplome_2",
         titre: "Diplôme ingénieur Cybersécurité, SI et Gouvernance",
         date: "2021-2026",
@@ -71,7 +81,7 @@ let diplomes = [
         description: "Le diplôme d'ingénieur en Cyber, Gouvernance et Systèmes d'Information de l'EFREI Paris forme des experts capables de concevoir, sécuriser et gérer les infrastructures informatiques et les systèmes d'information des entreprises. Ce cursus prépare les étudiants à intervenir dans la gouvernance des systèmes d'information, la cybersécurité, et la gestion des risques, en mettant un accent particulier sur la protection des données, la conformité réglementaire, et la continuité des opérations. Les diplômés maîtrisent les techniques avancées de sécurité informatique, les stratégies de gouvernance IT, et les méthodologies de gestion des projets informatiques. Les compétences acquises permettent aux diplômés de travailler dans des entreprises de toutes tailles, des cabinets de conseil en informatique, ou des services spécialisés en sécurité et gouvernance des systèmes d'information.",
         image:"../img/Logo_Efrei.png"
     },
-        {
+    {
         id: "diplome_7",
         titre: "Certification ISO/IEC 27001 (Lead Implementer / Auditor)",
         date: "2026",
@@ -80,16 +90,7 @@ let diplomes = [
         description: "Aspect gouvernance (ISO 27001) - Je suis en cours de formation sur la norme ISO 27001, la référence internationale pour les Systèmes de Management de la Sécurité de l'Information (SMSI). Mon objectif est de maîtriser les exigences et les bonnes pratiques pour l'établissement, la mise en œuvre, la maintenance et l'amélioration continue d'un SMSI, afin de protéger efficacement les actifs informationnels de l'entreprise.",
         image:"../img/ISO27001.png"
     },
-            {
-        id: "diplome_8",
-        titre: "Certification ISO/IEC 27005 (Risk Manager)",
-        date: "2026",
-        lieu: "Indépendant",
-        etat: "en_cours",
-        description: "Aspect gestion des risques (ISO 27005) - En complément de l'ISO 27001, je prépare la certification ISO 27005 pour me spécialiser dans la gestion des risques de sécurité de l'information. Cette démarche vise à acquérir une méthodologie structurée (ex: EBIOS, MEHARI) pour identifier, évaluer, traiter et surveiller les risques, ce qui est au cœur de toute stratégie de cybersécurité efficace.",
-        image:"../img/ISO27005.png"
-    },
-            {
+    {
         id: "diplome_9",
         titre: "Certification Certified Ethical Hacker (CEH)",
         date: "2026",
@@ -124,6 +125,11 @@ for (let i = 0; i < diplomes.length; i++) {
                 </div>
                 <div class="modal-body">
                     ${diplome.description}
+                    ${diplome.lien ? `
+                        <div>
+                            <a href="${diplome.lien}" target="_blank"> Voir l'attestation </a>
+                        </div>
+                    ` :''}
                 </div>
                 <div class="modal-footer">
                     
